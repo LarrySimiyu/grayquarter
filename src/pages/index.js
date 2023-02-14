@@ -2,9 +2,11 @@ import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "@next/font/google";
 import styles from "@/styles/Home.module.css";
+import { ReviewCard } from "@/components/ReviewCard";
 
 const inter = Inter({ subsets: ["latin"] });
 
+// floating action button to scroll
 export default function Home() {
   return (
     <>
@@ -19,16 +21,17 @@ export default function Home() {
         <div className="border-b-2 w-full h-[70px] flex items-center">
           <h1 className="text-3xl">GrayQuarter</h1>
         </div>
-        <section className="bg-back min-h-screen flex justify-center items-center ">
-          {/* intro section */}
+        <div className="bg-back min-h-screen flex justify-center items-center">
+          {/* intro div */}
           <div className="text-3xl">GrayQuarter</div>
-        </section>
-        {/* services section */}
-        {/* companies we work withsection */}
-        <section></section>
-        {/* contact section */}
+        </div>
+        {/* review div */}
+        {/* services div */}
+        {/* companies we work withdiv */}
+        <div className="bg-white min-h-screen flex justify-center items-center"></div>
+        {/* contact div */}
 
-        <section></section>
+        <div></div>
       </main>
     </>
   );
