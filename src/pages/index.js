@@ -15,10 +15,20 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       {/* <main className={styles.main}> */}
-      <main className="flex flex-col min-h-screen">
-        <div className="border-b-2 w-full">
+      <main className="flex flex-col min-h-screen bg-black border-2">
+        <div className="border-b-2 w-full h-[70px] flex items-center">
           <h1 className="text-3xl">GrayQuarter</h1>
         </div>
+        <section className="bg-back min-h-screen flex justify-center items-center ">
+          {/* intro section */}
+          <div className="text-3xl">GrayQuarter</div>
+        </section>
+        {/* services section */}
+        {/* companies we work withsection */}
+        <section></section>
+        {/* contact section */}
+
+        <section></section>
       </main>
     </>
   );
